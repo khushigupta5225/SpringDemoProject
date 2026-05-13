@@ -4,10 +4,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class ControlerA {
-    @GetMapping("/Hi/vishnu")
+public class ControlerR {
+    @GetMapping("/Hi/anoymous")
     public String hi(){
-        return "hi from vishnu";
+        return "hi from anoymous";
     }
 
 }
